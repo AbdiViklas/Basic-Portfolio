@@ -1,10 +1,10 @@
 nav {
-	background: white;
-	border-bottom: 2px solid silver;
+	background: #fff;
+	border-bottom: 2px solid #ccc;
 }
 
 #logo {
-	background-color: cadetblue;
+	background-color: #4aaaa5;
 	font: white;
 	font-style: bold;
 }
