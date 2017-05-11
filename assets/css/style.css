@@ -4,7 +4,13 @@ nav {
 }
 
 #logo {
+	float: left;
 	background-color: #4aaaa5;
-	font: white;
+	color: white;
 	font-style: bold;
+	padding: 20px;
+}
+
+#navlinks {
+	float: right;
 }
