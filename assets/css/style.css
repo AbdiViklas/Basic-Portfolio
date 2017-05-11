@@ -2,3 +2,9 @@ nav {
 	background: white;
 	border-bottom: 2px solid silver;
 }
+
+#logo {
+	background-color: cadetblue;
+	font: white;
+	font-style: bold;
+}
