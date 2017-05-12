@@ -30,3 +30,13 @@ nav {
 main {
 	clear: both;
 }
+
+.content {
+	width: 650px;
+}
+
+#headshot {
+	width: 200px;
+	float: left;
+	padding-right: 10px;
+}
