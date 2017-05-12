@@ -11,6 +11,8 @@ nav {
 	border-bottom: 2px solid #ccc;
 }
 
+/* So my nav bottom border is showing ABOVE its content. above #logo and #navlinks. What gives? Is it display: inline-block? doesn't appear to be... Is it a funny behavior of float or clear that I don't understand yet? I mean, I gotta assume so... */
+
 #logo {
 	float: left;
 	display: inline-block;
