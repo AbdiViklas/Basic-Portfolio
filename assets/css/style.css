@@ -33,10 +33,20 @@ main {
 
 .content {
 	width: 650px;
+	float: left;
+}
+
+.sidebar {
+	width: 270px;
+	float: right;
 }
 
 #headshot {
 	width: 200px;
 	float: left;
 	padding-right: 10px;
+}
+
+footer {
+	clear: both;
 }
