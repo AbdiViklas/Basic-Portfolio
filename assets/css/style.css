@@ -24,3 +24,7 @@ nav {
 	float: right;
 	display: inline-block;
 }
+
+main {
+	clear: both;
+}
