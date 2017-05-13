@@ -54,6 +54,8 @@ nav {
 main {
 	clear: both;
 	margin-bottom: 85px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 .content {
