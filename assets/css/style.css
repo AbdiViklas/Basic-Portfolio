@@ -6,7 +6,7 @@
 
 .clearfix:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
@@ -27,6 +27,10 @@ body {
 nav {
 	background: #fff;
 	border-bottom: 2px solid #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 /* So my nav bottom border is showing ABOVE its content. above #logo and #navlinks. What gives? Is it display: inline-block? doesn't appear to be... Is it a funny behavior of float or clear that I don't understand yet? I mean, I gotta assume so... */
