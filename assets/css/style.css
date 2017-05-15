@@ -88,6 +88,11 @@ main {
 	padding-right: 10px;
 }
 
+.icon {
+	height: 50px;
+	width: auto;
+}
+
 footer {
 	clear: both;
 	position: fixed;
