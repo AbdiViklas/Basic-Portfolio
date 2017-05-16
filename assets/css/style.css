@@ -56,6 +56,8 @@ nav {
 	padding-right: 10vw;
 }
 
+/* There's a lot of space between the bottom of my <nav> and the top of my <main>. When I inspect it, in the devTools box graphic, the bottom of the "position" category shows 557. This figure changes with window dimensions (though the appearance of the gap doesn't). When I change nav position away from fixed, the gap actually increases.*/
+
 #logo {
 	float: left;
 	background-color: #4aaaa5;
