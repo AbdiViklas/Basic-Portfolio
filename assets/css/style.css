@@ -10,10 +10,22 @@
 	border: 1px solid red;
 }*/
 
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
+}
+
+.center {
+	margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -97,9 +109,15 @@ main {
 	padding-right: 10px;
 }
 
+#iconBox {
+	text-align: justify;
+	width: 100%;
+}
+
 .icon {
 	height: 50px;
 	width: auto;
+	display: inline-block;
 }
 
 footer {
