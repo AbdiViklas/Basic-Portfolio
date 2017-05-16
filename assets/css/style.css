@@ -36,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	text-decoration: none;
+	color: #777;
+	font-style: bold;
 }
 
 body {
@@ -67,6 +69,24 @@ nav {
 	padding: 20px;
 }
 
+#navLinks {
+	padding: 20px;
+}
+
+#leftButton {
+	padding: 0 10px 0 0;
+}
+
+#midButton {
+	padding: 0 10px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+#rightButton {
+	padding: 0 0 0 10px;
+}
+
 /* Question: even if I comment out the main {margin-top} property below, there's space between nav and main. Nav has no margin. What gives? 
 
 OK, wait, if I get rid of nav {position: fixed} nav moves down flush against main. But then it's not flush against the top of the page. Does <body> have some default top padding or something? */
@@ -88,7 +108,7 @@ main {
 .box {
 	background: white;
 	padding: 30px;
-	border: 1px solid #ccc;
+	border: 1px solid #ddd;
 }
 
 .hr {
