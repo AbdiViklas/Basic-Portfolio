@@ -4,11 +4,7 @@
           box-sizing: border-box;
 }
 
-/* Comment out after working on layout: */
-
-/** {
-	border: 1px solid red;
-}*/
+/* all-purpose rules */
 
 .floatLeft {
 	float: left;
@@ -90,10 +86,6 @@ nav {
 	padding: 0 0 0 10px;
 }
 
-/* Question: even if I comment out the main {margin-top} property below, there's space between nav and main. Nav has no margin. What gives? 
-
-OK, wait, if I get rid of nav {position: fixed} nav moves down flush against main. But then it's not flush against the top of the page. Does <body> have some default top padding or something? Update: yes, the browser adds 8px padding to body.; */
-
 /* main content */
 
 main {
@@ -135,7 +127,7 @@ main {
 	padding-right: 10px;
 }
 
-/* for portfolio */
+/* for portfolio.html */
 
 .row {
 	width: 100%;
