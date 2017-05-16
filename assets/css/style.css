@@ -134,6 +134,8 @@ main {
 	display: inline-block;
 }
 
+/* Hey, is it just me, or is the StackOverflow icon displaying bigger than the others? like by 1px or so? But the files are the same dimensions, all 128x128, and they're being treated the same above. */
+
 #iconBox:after {
 	content: '';
 	width: 100%;
