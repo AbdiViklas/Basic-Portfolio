@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	text-decoration: none;
 	color: #777;
-	font-style: bold;
+	font-weight: bold;
 }
 
 body {
@@ -67,7 +67,7 @@ nav {
 #logo {
 	background-color: #4aaaa5;
 	color: white;
-	font-style: bold;
+	font-weight: bold;
 	padding: 20px;
 }
 
@@ -143,8 +143,20 @@ main {
 .portfolioBox {
 	height: 200px;
 	width: 275px;
+	position: relative;
 	display: inline-block;
-	border: 1px solid red;
+	margin-bottom: 20px;
+}
+
+.portfolioLabel {
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 145px;
+	text-align: center;
+	background: #4aaaa5;
+	color: white;
+	font-weight: normal;
 }
 
 #hangman {
