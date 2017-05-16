@@ -134,4 +134,15 @@ footer {
 	height: 80px;
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
+	background: #666;
+	color: #ccc;
+	text-align: center;
 }
+
+footer p {
+	position: relative;
+	top: 40%;
+  transform: translateY(-60%);
+}
+
+/* I used "top: 50%; transform: translateY(-50%)", and the result appeared to be below center. The above looks right. Why? It's not the footer's 5px border-top, is it?*/
