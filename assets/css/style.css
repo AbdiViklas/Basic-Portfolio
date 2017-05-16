@@ -48,6 +48,8 @@ body {
 	color: #777;
 }
 
+/* nav bar */
+
 nav {
 	background: #fff;
 	border-bottom: 2px solid #ccc;
@@ -89,7 +91,9 @@ nav {
 
 /* Question: even if I comment out the main {margin-top} property below, there's space between nav and main. Nav has no margin. What gives? 
 
-OK, wait, if I get rid of nav {position: fixed} nav moves down flush against main. But then it's not flush against the top of the page. Does <body> have some default top padding or something? */
+OK, wait, if I get rid of nav {position: fixed} nav moves down flush against main. But then it's not flush against the top of the page. Does <body> have some default top padding or something? Update: yes, the browser adds 8px padding to body.; */
+
+/* main content */
 
 main {
 	clear: both;
@@ -122,6 +126,48 @@ main {
 	width: 200px;
 	padding-right: 10px;
 }
+
+/* for portfolio */
+
+.row {
+	width: 100%;
+	text-align: justify;
+}
+
+.row:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+.portfolioBox {
+	height: 200px;
+	width: 275px;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+#hangman {
+	background-image: url(../images/hangman.jpg);
+}
+
+#rpg {
+	background-image: url(../images/rpg.jpg);
+}
+
+#trivia {
+	background-image: url(../images/trivia.jpg);
+}
+
+#rutgers {
+	background-image: url(../images/rutgers.jpg);
+}
+
+#rockPaperScissors {
+	background-image: url(../images/rockPaperScissors.jpg);
+}
+
+/* "connect" sidebar */
 
 #iconBox {
 	text-align: justify;
