@@ -74,7 +74,7 @@ OK, wait, if I get rid of nav {position: fixed} nav moves down flush against mai
 main {
 	clear: both;
 	width: 960px;
-	margin: 100px 150px 85px 150px;
+	margin: 100px auto 85px auto;
 }
 
 .content {
