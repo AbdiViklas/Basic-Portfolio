@@ -93,6 +93,7 @@ main {
 	clear: both;
 	width: 960px;
 	margin: 100px auto 85px auto;
+	overflow: auto;
 }
 
 .content {
